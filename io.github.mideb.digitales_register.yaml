@@ -51,3 +51,5 @@ modules:
         url: https://github.com/miDeb/digitales_register/releases/download/v8.2.15/digitales_register-linux-x86_64.tar.gz
         dest: digitales_register
         sha256: 27ecda40fcc197922a9efe64f534cd9d91a8438f050fd8f7704d28354c29439b
+      - type: patch
+        path: fix_appdata.patch
